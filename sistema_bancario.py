@@ -40,7 +40,7 @@ while True:
                 valor = float(input("Informe o valor a ser sacado: "))
             except ValueError:
                 print("Operação falhou! O valor informado é inválido. Por favor, digite um número.")
-                continue # Pula para a próxima iteração
+                continue 
 
             if numero_saques >= LIMITE_SAQUES:
                 print("Operação falhou! Você excedeu o limite diário de saques.")
